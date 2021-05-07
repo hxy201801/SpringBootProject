@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.240.210.206:3306/ssmhxy?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+
+  redis:
+    database: 0
+    host: 10.240.210.206
+    port: 6379
+    timeout: 5000
+    pool:
+      max-active: 50
+      max-wait: 3000
+      max-idle: 20
+      min-idle: 2
+
+server:
+  port: 8081
+
+logging:
+  level:
+    com:
+      neusoft:
+        newsroom: INFO
+      mypackage:
+        domain:
+          persistence: DEBUG
+    org:
+      hibernate: ERROR
+      springframework:
+        security: INFO

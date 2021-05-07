@@ -6,6 +6,8 @@
 	<modules>
 		<module>MongoConnection</module>
 		<module>RedisConnection</module>
+        <module>RedisMySqlConnection</module>
+		<module>MyBatisMySqlConnection</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
