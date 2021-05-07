@@ -1,0 +1,11 @@
+spring:
+  redis:
+    database: 0
+    host: 10.240.210.206
+    port: 6379
+    timeout: 5000
+    pool:
+      max-active: 50
+      max-wait: 3000
+      max-idle: 20
+      min-idle: 2

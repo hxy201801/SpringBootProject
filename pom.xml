@@ -5,6 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>MongoConnection</module>
+		<module>RedisConnection</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
